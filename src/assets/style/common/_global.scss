@@ -1,11 +1,11 @@
 html {
-  color: #333;
+  color: $color-font;
+  background-color: $color-bg;
   font: {
     size: 62.5%;
     weight: 400;
     family: 'Pretendard', sans-serif;
   }
-  overflow-x: hidden;
 }
 
 body {
