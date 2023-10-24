@@ -65,7 +65,7 @@ const Index = () => {
       </Section>
       <Section>
         <section>
-          <article className="work">in</article>
+          <article className="work"></article>
         </section>
       </Section>
 
