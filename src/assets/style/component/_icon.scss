@@ -1,0 +1,36 @@
+@mixin icon {
+  display: inline-block;
+  position: relative;
+}
+
+.icon {
+  &-angle {
+    @include icon;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      color: #555;
+    }
+  }
+  &-kakao {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &-insta {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+  &-youtube {
+    @include icon;
+    svg {
+      width: 3rem;
+      height: 3rem;
+    }
+  }
+}

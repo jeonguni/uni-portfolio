@@ -1,0 +1,53 @@
+@mixin btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0.2rem 0.2rem 1rem 0 rgb(0 0 0 / 20%);
+  padding: 1.5rem 5rem;
+  gap: 2rem;
+  border-radius: 3.5rem;
+  font: {
+    weight: 700;
+    size: 2rem;
+  }
+}
+
+.btn {
+  &-primary {
+    @include btn;
+    width: auto;
+    color: #fff;
+    background-color: $color-btn;
+  }
+
+  &-secondary {
+    @include btn;
+    width: auto;
+    color: #fff;
+    background-color: $color-btn;
+    box-shadow: none;
+  }
+
+  &-reverse {
+    @include btn;
+    width: auto;
+    color: #fff;
+    background-color: $color-btn;
+  }
+
+  &-gray {
+    @include btn;
+    width: auto;
+    color: #fff;
+    background-color: $color-gray;
+  }
+}
+
+a.disabled,
+button.disabled,
+button[disabled] {
+  color: #fff;
+  background-color: $color-gray;
+  cursor: default;
+  pointer-events: none;
+}
