@@ -1,0 +1,58 @@
+section {
+  height: 100vh;
+  position: relative;
+}
+
+header + section {
+  padding-top: 10rem;
+}
+
+article {
+  height: inherit;
+}
+
+/* ============= main ============= */
+
+.main {
+  position: relative;
+  height: calc(100vh - 10rem);
+}
+
+.mainWrap {
+  position: absolute;
+  padding: 0 1rem;
+  top: 40%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.mainTit > strong {
+  font-family: 'VAL';
+  font-size: 9rem;
+  display: block;
+  text-transform: uppercase;
+}
+
+.mainSub {
+  font-size: 2rem;
+  letter-spacing: -0.1rem;
+  margin-top: 5rem;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+/* ============= profile ============= */
+
+.profile {
+  position: relative;
+  padding: 5rem 1rem;
+}
+
+.profileWrap > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+/* ============= work ============= */
