@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/uni-portfolio/static/css/main.b217fc15.css",
+    "main.js": "/uni-portfolio/static/js/main.901ddd2a.js",
+    "static/media/VAL.woff": "/uni-portfolio/static/media/VAL.1290639e01e61be2345f.woff",
+    "index.html": "/uni-portfolio/index.html",
+    "static/media/Pretendard-Black.woff": "/uni-portfolio/static/media/Pretendard-Black.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Black.woff2": "/uni-portfolio/static/media/Pretendard-Black.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-Bold.woff": "/uni-portfolio/static/media/Pretendard-Bold.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Bold.woff2": "/uni-portfolio/static/media/Pretendard-Bold.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-ExtraBold.woff": "/uni-portfolio/static/media/Pretendard-ExtraBold.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-ExtraBold.woff2": "/uni-portfolio/static/media/Pretendard-ExtraBold.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-ExtraLight.woff": "/uni-portfolio/static/media/Pretendard-ExtraLight.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-ExtraLight.woff2": "/uni-portfolio/static/media/Pretendard-ExtraLight.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-Light.woff": "/uni-portfolio/static/media/Pretendard-Light.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Light.woff2": "/uni-portfolio/static/media/Pretendard-Light.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-Medium.woff": "/uni-portfolio/static/media/Pretendard-Medium.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Medium.woff2": "/uni-portfolio/static/media/Pretendard-Medium.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-Regular.woff": "/uni-portfolio/static/media/Pretendard-Regular.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Regular.woff2": "/uni-portfolio/static/media/Pretendard-Regular.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-SemiBold.woff": "/uni-portfolio/static/media/Pretendard-SemiBold.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-SemiBold.woff2": "/uni-portfolio/static/media/Pretendard-SemiBold.31d6cfe0d16ae931b73c.woff2",
+    "static/media/Pretendard-Thin.woff": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff",
+    "static/media/Pretendard-Thin.woff2": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff2",
+    "main.b217fc15.css.map": "/uni-portfolio/static/css/main.b217fc15.css.map",
+    "main.901ddd2a.js.map": "/uni-portfolio/static/js/main.901ddd2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b217fc15.css",
+    "static/js/main.901ddd2a.js"
+  ]
+}
