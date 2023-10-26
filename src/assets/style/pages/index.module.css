@@ -3,7 +3,7 @@ section {
   position: relative;
 }
 
-header + section {
+.layout section:first-child {
   padding-top: 10rem;
 }
 
@@ -15,13 +15,13 @@ article {
 
 .main {
   position: relative;
-  height: calc(100vh - 10rem);
+  height: 100vh;
 }
 
 .mainWrap {
   position: absolute;
   padding: 0 1rem;
-  top: 40%;
+  top: 50%;
   left: 0;
   transform: translateY(-50%);
 }
@@ -53,6 +53,46 @@ article {
   align-items: center;
   justify-content: center;
   gap: 10rem;
+}
+
+.profileImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profileImg img {
+  width: 10rem;
+}
+
+.profileImg a {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.profileSub {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5rem;
+}
+
+.profileSub span {
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.profileSub strong {
+  font-size: 7rem;
+  font-family: 'VAL';
+}
+
+.profileSub p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 /* ============= work ============= */

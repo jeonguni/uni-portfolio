@@ -11,23 +11,25 @@ const Header = () => {
   });
   return (
     <header className={scrollPosition > 50 ? 'on' : ''}>
-      <h1>Uni's</h1>
-      <ul className="header-list">
-        <li>
-          <a href="#home">home</a>
-        </li>
-        <li>
-          <a href="#profile">profile</a>
-        </li>
-        <li>
-          <a href="#work">work</a>
-        </li>
-        <li>
-          <a href="https://jeonguni-que.tistory.com/" target="_blank" rel="noopener noreferrer">
-            blog
-          </a>
-        </li>
-      </ul>
+      <div className="header-inner">
+        <h1>Uni's</h1>
+        <ul className="header-list">
+          <li>
+            <a href="#home">home</a>
+          </li>
+          <li>
+            <a href="#profile">profile</a>
+          </li>
+          <li>
+            <a href="#work">work</a>
+          </li>
+          <li>
+            <a href="https://jeonguni-que.tistory.com/" target="_blank" rel="noopener noreferrer">
+              blog
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 };

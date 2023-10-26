@@ -1,6 +1,7 @@
 @mixin icon {
   display: inline-block;
   position: relative;
+  vertical-align: middle;
 }
 
 .icon {
@@ -9,7 +10,6 @@
     svg {
       width: 2rem;
       height: 2rem;
-      color: #555;
     }
   }
   &-kakao {
@@ -31,6 +31,21 @@
     svg {
       width: 3rem;
       height: 3rem;
+    }
+  }
+  &-git {
+    @include icon;
+    svg {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+  }
+  &-heart {
+    @include icon;
+    svg {
+      width: 3.5rem;
+      height: 3.5rem;
+      color: crimson;
     }
   }
 }
