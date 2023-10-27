@@ -21,6 +21,11 @@ const Header = () => {
             <a href="#profile">profile</a>
           </li>
           <li>
+            <a href="https://jeonguni-career.notion.site/cf91240b64674ddbba1d1a0752d094c1?pvs=4" target="_blank">
+              career
+            </a>
+          </li>
+          <li>
             <a href="#work">work</a>
           </li>
           <li>

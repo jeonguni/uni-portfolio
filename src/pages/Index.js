@@ -28,7 +28,7 @@ const Index = () => {
     <>
       <Header />
       <div className="layout">
-        <section>
+        <section id="home">
           <article className={`${style.main}`}>
             <div className={`${style.mainWrap}`}>
               <SlideUp>
@@ -45,13 +45,13 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section>
+        <section id="profile">
           <article className={`${style.profile}`}>
             <div className={`${style.profileWrap}`}>
               <SlideUp>
                 <div className={`${style.profileImg}`}>
                   <img src="" alt="profile" />
-                  <a href="https://jeonguni-career.notion.site/cf91240b64674ddbba1d1a0752d094c1?pvs=4">
+                  <a href="https://jeonguni-career.notion.site/cf91240b64674ddbba1d1a0752d094c1?pvs=4" target="_blank">
                     경력기술서
                     <i className="icon-angle">
                       <FaAngleRight />
@@ -76,11 +76,46 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section>
+        <section id="work">
           <article className={`${style.work}`}>
             <h2 className={`${style.workTit}`}>이런 작업을 했어요!</h2>
             <div className={`${style.workWrap}`}>
-              <SlideUp></SlideUp>
+              <SlideUp>
+                <div className={`${style.workItem}`}>
+                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workDsc}`}>
+                    <h3>
+                      (주)아이스크림에듀 <sup>23.07 ~ 재직중</sup>
+                    </h3>
+                  </div>
+                </div>
+              </SlideUp>
+              <SlideUp>
+                <div className={`${style.workItem}`}>
+                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workDsc}`}>
+                    <h3>
+                      NtoN<sup>21.08 ~ 23.06</sup>
+                    </h3>
+                  </div>
+                </div>
+              </SlideUp>
+              <SlideUp>
+                <div className={`${style.workItem}`}>
+                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workDsc}`}>
+                    <h3>
+                      옥토컴퍼니<sup>21.05 ~ 21.08</sup>
+                    </h3>
+                  </div>
+                </div>
+              </SlideUp>
+              <a href="https://jeonguni-career.notion.site/cf91240b64674ddbba1d1a0752d094c1?pvs=4" target="_blank">
+                이외에도 더 많은 작업을 했습니다 :D!{' '}
+                <i className="icon-angle">
+                  <FaAngleRight />
+                </i>
+              </a>
             </div>
           </article>
         </section>
