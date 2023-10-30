@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/uni-portfolio/static/css/main.b189e3f4.css",
-    "main.js": "/uni-portfolio/static/js/main.1c3a5205.js",
+    "main.css": "/uni-portfolio/static/css/main.e1fac398.css",
+    "main.js": "/uni-portfolio/static/js/main.a23f4f11.js",
+    "static/media/work-com2.png": "/uni-portfolio/static/media/work-com2.d296109aaf9e9904d3ac.png",
+    "static/media/work-com1.png": "/uni-portfolio/static/media/work-com1.2202c05f551ea396d212.png",
+    "static/media/work-com3.png": "/uni-portfolio/static/media/work-com3.6500a041ff9a7e7824e5.png",
     "static/media/signiture.png": "/uni-portfolio/static/media/signiture.088bff68eea9d7df4570.png",
     "static/media/VAL.woff": "/uni-portfolio/static/media/VAL.1290639e01e61be2345f.woff",
     "index.html": "/uni-portfolio/index.html",
@@ -23,11 +26,11 @@
     "static/media/Pretendard-SemiBold.woff2": "/uni-portfolio/static/media/Pretendard-SemiBold.31d6cfe0d16ae931b73c.woff2",
     "static/media/Pretendard-Thin.woff": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff",
     "static/media/Pretendard-Thin.woff2": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff2",
-    "main.b189e3f4.css.map": "/uni-portfolio/static/css/main.b189e3f4.css.map",
-    "main.1c3a5205.js.map": "/uni-portfolio/static/js/main.1c3a5205.js.map"
+    "main.e1fac398.css.map": "/uni-portfolio/static/css/main.e1fac398.css.map",
+    "main.a23f4f11.js.map": "/uni-portfolio/static/js/main.a23f4f11.js.map"
   },
   "entrypoints": [
-    "static/css/main.b189e3f4.css",
-    "static/js/main.1c3a5205.js"
+    "static/css/main.e1fac398.css",
+    "static/js/main.a23f4f11.js"
   ]
 }
