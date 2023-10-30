@@ -111,7 +111,7 @@ const Index = () => {
                 </div>
               </SlideUp>
               <a href="https://jeonguni-career.notion.site/cf91240b64674ddbba1d1a0752d094c1?pvs=4" target="_blank">
-                이외에도 더 많은 작업을 했습니다 :D!{' '}
+                이외에도 더 많은 작업을 했습니다 :D!
                 <i className="icon-angle">
                   <FaAngleRight />
                 </i>
