@@ -3,6 +3,9 @@ import style from '../assets/style/pages/index.module.css';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { FaAngleRight } from 'react-icons/fa';
+import workImg1 from '../assets/images/asset/work-com1.png';
+import workImg2 from '../assets/images/asset/work-com2.png';
+import workImg3 from '../assets/images/asset/work-com3.png';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -28,7 +31,7 @@ const Index = () => {
     <>
       <Header />
       <div className="layout">
-        <section id="home">
+        <section id="home" class={`${style.home}`}>
           <article className={`${style.main}`}>
             <div className={`${style.mainWrap}`}>
               <SlideUp>
@@ -45,7 +48,7 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section id="profile">
+        <section id="profile" class={`${style.profile}`}>
           <article className={`${style.profile}`}>
             <div className={`${style.profileWrap}`}>
               <SlideUp>
@@ -76,37 +79,61 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section id="work">
+        <section id="work" class={`${style.work}`}>
           <article className={`${style.work}`}>
             <h2 className={`${style.workTit}`}>이런 작업을 했어요!</h2>
             <div className={`${style.workWrap}`}>
               <SlideUp>
                 <div className={`${style.workItem}`}>
-                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workImg}`}>
+                    <img src={workImg1} alt="icecream edu image" />
+                  </div>
                   <div className={`${style.workDsc}`}>
                     <h3>
                       (주)아이스크림에듀 <sup>23.07 ~ 재직중</sup>
                     </h3>
+                    <ul>
+                      <li>챗봇 체험단 퍼블리싱</li>
+                      <li>수학의 세포들 유지보수 담당</li>
+                      <li>자사 서비스 퍼블리싱 전담</li>
+                    </ul>
                   </div>
                 </div>
               </SlideUp>
               <SlideUp>
                 <div className={`${style.workItem}`}>
-                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workImg}`}>
+                    <img src={workImg2} alt="nton image" />
+                  </div>
                   <div className={`${style.workDsc}`}>
                     <h3>
                       NtoN<sup>21.08 ~ 23.06</sup>
                     </h3>
+                    <ul>
+                      <li>포스코 ICT Smart 안전관제 솔루션 개발 참여 및 퍼블리싱</li>
+                      <li>대원 칸타빌 브랜드 홈페이지 구축 퍼블리싱</li>
+                      <li>태영건설 모바일AS 퍼블리싱</li>
+                      <li>CJ 대한통운 건설 차세대 ERP시스템 모바일 구축 퍼블리싱</li>
+                      <li>홈페이지 구축 퍼블리싱</li>
+                      <li>홈페이지 퍼블리싱 관련 유지보수</li>
+                    </ul>
                   </div>
                 </div>
               </SlideUp>
               <SlideUp>
                 <div className={`${style.workItem}`}>
-                  <div className={`${style.workImg}`}></div>
+                  <div className={`${style.workImg}`}>
+                    <img src={workImg3} alt="octo image" />
+                  </div>
                   <div className={`${style.workDsc}`}>
                     <h3>
                       옥토컴퍼니<sup>21.05 ~ 21.08</sup>
                     </h3>
+                    <ul>
+                      <li>자사 서비스 홈페이지 디자인</li>
+                      <li>자사 서비스 홈페이지 퍼블리싱</li>
+                      <li>회사 소개서 및 이미지 작업 다수</li>
+                    </ul>
                   </div>
                 </div>
               </SlideUp>

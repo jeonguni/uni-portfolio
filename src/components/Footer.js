@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="footer-right">
           <p>
             <span>
-              made by <b>uni</b> with{' '}
+              made by <b>uni</b> with
             </span>
             <i className="icon-heart">
               <TiHeart />
