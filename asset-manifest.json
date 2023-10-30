@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/uni-portfolio/static/css/main.b217fc15.css",
-    "main.js": "/uni-portfolio/static/js/main.901ddd2a.js",
+    "main.css": "/uni-portfolio/static/css/main.b189e3f4.css",
+    "main.js": "/uni-portfolio/static/js/main.1c3a5205.js",
+    "static/media/signiture.png": "/uni-portfolio/static/media/signiture.088bff68eea9d7df4570.png",
     "static/media/VAL.woff": "/uni-portfolio/static/media/VAL.1290639e01e61be2345f.woff",
     "index.html": "/uni-portfolio/index.html",
     "static/media/Pretendard-Black.woff": "/uni-portfolio/static/media/Pretendard-Black.31d6cfe0d16ae931b73c.woff",
@@ -22,11 +23,11 @@
     "static/media/Pretendard-SemiBold.woff2": "/uni-portfolio/static/media/Pretendard-SemiBold.31d6cfe0d16ae931b73c.woff2",
     "static/media/Pretendard-Thin.woff": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff",
     "static/media/Pretendard-Thin.woff2": "/uni-portfolio/static/media/Pretendard-Thin.31d6cfe0d16ae931b73c.woff2",
-    "main.b217fc15.css.map": "/uni-portfolio/static/css/main.b217fc15.css.map",
-    "main.901ddd2a.js.map": "/uni-portfolio/static/js/main.901ddd2a.js.map"
+    "main.b189e3f4.css.map": "/uni-portfolio/static/css/main.b189e3f4.css.map",
+    "main.1c3a5205.js.map": "/uni-portfolio/static/js/main.1c3a5205.js.map"
   },
   "entrypoints": [
-    "static/css/main.b217fc15.css",
-    "static/js/main.901ddd2a.js"
+    "static/css/main.b189e3f4.css",
+    "static/js/main.1c3a5205.js"
   ]
 }
