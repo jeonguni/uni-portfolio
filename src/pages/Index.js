@@ -146,6 +146,7 @@ const Index = () => {
             </div>
           </article>
         </section>
+        <section class={`${style.workList}`}></section>
       </div>
       <Footer />
     </>
