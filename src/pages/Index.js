@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../assets/style/pages/index.module.css';
+import style from '../assets/style/pages/index.module.scss';
 import { useRef } from 'react';
 import { useInView } from 'framer-motion';
 import { FaAngleRight } from 'react-icons/fa';
@@ -146,7 +146,9 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section class={`${style.workList}`}></section>
+        <section id="list" class={`${style.list}`}>
+          <article class={`${style.listInner}`}></article>
+        </section>
       </div>
       <Footer />
     </>
