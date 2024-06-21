@@ -48,7 +48,7 @@ const Index = () => {
             </div>
           </article>
         </section>
-        <section id="profile" class={`${style.profile}`}>
+        <section id="profile" className={`${style.profile}`}>
           <article className={`${style.profile}`}>
             <div className={`${style.profileWrap}`}>
               <SlideUp>
@@ -70,7 +70,7 @@ const Index = () => {
                     html, css뿐만 아니라 React 환경에서 컴포넌트 단위의 마크업 작업이 가능합니다. <br />
                     <br />
                     반응형과 웹 접근성, 웹 표준을 고려한 UI를 만들고 있어요. <br />
-                    협업을 위한 사람들 사이의 소통을 위한 퍼포먼스와 적극성을 중요하게 생각해요. <br />
+                    프로젝트의 퍼포먼스 극대화를 위해 사람들 사이의 소통의 적극성을 중요하게 생각해요. <br />
                     <br />
                     소속감을 중요하게 생각해 팀원들과 작업에 대한 이야기를 나누려고 부단히 노력하는 사람입니다.
                   </p>
@@ -93,6 +93,9 @@ const Index = () => {
                       (주)아이스크림에듀 <sup>23.07 ~ 재직중</sup>
                     </h3>
                     <ul>
+                      <li>AI 디지털교과서 퍼블리싱</li>
+                      <li>AI Tutor 퍼블리싱</li>
+                      <li>Dream Writing 웹버전 전환 퍼블리싱</li>
                       <li>챗봇 체험단 퍼블리싱</li>
                       <li>수학의 세포들 유지보수 담당</li>
                       <li>자사 서비스 퍼블리싱 전담</li>
